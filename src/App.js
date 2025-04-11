@@ -2,15 +2,16 @@ import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Balls from "./Balls";
+import Home from "./Home";
 
 function App() {
   return (
     <Router>
       <div className="app">
         <Routes>
-            <Route path="/" element={<Balls text="home page" />} />
-            <Route path="/about" element={<Balls text="what" />} />
-            <Route path="/contact" element={<Balls text="damn" />} />
+            <Route path="/" element={<Home text="home page" />} />
+            <Route path="/login" element={<Balls text="login" />} />
+            <Route path="/checkout" element={<Balls text="checkout" />} />
         </Routes>
       </div>
     </Router>

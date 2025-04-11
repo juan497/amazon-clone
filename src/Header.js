@@ -6,7 +6,7 @@ import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 function Header() {
   return (
     <nav className="header">
-        <Link>
+        <Link to="/">
             <img className="header__logo"src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"/>
         </Link>
         <div className='header__search'>
@@ -29,24 +29,6 @@ function Header() {
             <div className='header__option'>
               <span className="header__optionLineOne"> Return</span>
               <span className="header__optionLineTwo"> & orders</span>
-            </div>
-          </Link>
-        </div>
-
-        <div className='header__nav'>
-          <Link to="/" className='header__link'>
-            <div className='header__option'>
-              <span className="header__optionLineOne"> Your</span>
-              <span className="header__optionLineTwo"> Prime</span>
-            </div>
-          </Link>
-        </div>
-
-        <div className='header__nav'>
-          <Link to="/" className='header__link'>
-            <div className='header__option'>
-              <span className="header__optionLineOne"> Your</span>
-              <span className="header__optionLineTwo"> Prime</span>
             </div>
           </Link>
         </div>
