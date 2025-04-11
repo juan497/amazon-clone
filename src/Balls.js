@@ -1,8 +1,30 @@
 import React from 'react'
+import Header from './Header'
 
 function Balls(props) {
   return (
-    <div>{props.text}</div>
+    <div>
+        <Header/>
+        <h2>{props.text}</h2>
+        <h2>{props.text}</h2>
+        <h2>{props.text}</h2>
+        <h2>{props.text}</h2>
+        <h2>{props.text}</h2>
+        <h2>{props.text}</h2>
+        <h2>{props.text}</h2>
+        <h2>{props.text}</h2>
+        <h2>{props.text}</h2>
+        <h2>{props.text}</h2>
+        <h2>{props.text}</h2>
+        <h2>{props.text}</h2>
+        <h2>{props.text}</h2>
+        <h2>{props.text}</h2>
+        <h2>{props.text}</h2>
+        <h2>{props.text}</h2>
+        <h2>{props.text}</h2>
+        <h2>{props.text}</h2>
+    
+    </div>
   )
 }
 
