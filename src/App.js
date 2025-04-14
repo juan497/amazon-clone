@@ -1,9 +1,9 @@
 
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Balls from "./Balls";
 import Home from "./Home";
 import Checkout from "./Checkout";
+import Login from "./Login";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <div className="app">
         <Routes>
             <Route path="/" element={<Home text="home page" />} />
-            <Route path="/login" element={<Balls text="login" />} />
+            <Route path="/login" element={<Login/>} />
             <Route path="/checkout" element={<Checkout text="checkout" />} />
         </Routes>
       </div>
